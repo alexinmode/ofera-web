@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { FormControl} from '@angular/forms';
 
+
 @Component({
   selector: 'app-cotizar',
   templateUrl: './cotizar.component.html',
@@ -15,7 +16,7 @@ export class CotizarComponent {
   public amount:string;
   public parts:string;
 
-  constructor() {
+  constructor(private httpClient: HttpClient){
     document.body.style.backgroundImage = "url('./assets/img/fondo.jpg')";
     // document.getElementById("link-garantia").style.color = "#5046AA";
     // document.getElementById("link-preguntas").style.color = "#5046AA";
@@ -27,6 +28,20 @@ export class CotizarComponent {
   }
 
   public sendMail(){
+    let json = {};
+    json["name"] = this.name;
+    json["phone"] = this.phone;
+    json["email"] = this.email;
+    json["description"] = this.description;
+    json["amount"] = this.amount;
+    json["parts"] = this.parts;
+    json["destinatario"] = "tecnologicogorila@gmail.com"
+    this.httpClient.post('https://anapioficeandfire.com/api/books/1',json)
+      .subscribe(
+        (data:any[]) => {
+          alert(data["state"]);
+        }
+      )
     console.log(this.name);
   }
 

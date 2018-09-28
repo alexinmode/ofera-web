@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 //Rutas
 import{ APP_ROUTING } from './app.routes';
+import { HttpModule } from '@angular/http';
 
 //componentes
 import { AppComponent } from './app.component';
@@ -38,6 +39,7 @@ import { FormsModule } from '@angular/forms';
     APP_ROUTING,
     AngularFontAwesomeModule,
     BrowserAnimationsModule,
+    HttpModule,
     FormsModule
   ],
   providers: [],
