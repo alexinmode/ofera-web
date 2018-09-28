@@ -35,8 +35,13 @@ export class CotizarComponent {
     json["description"] = this.description;
     json["amount"] = this.amount;
     json["parts"] = this.parts;
-    json["destinatario"] = "tecnologicogorila@gmail.com"
-    this.httpClient.post('https://anapioficeandfire.com/api/books/1',json)
+    json["emisor"] = "tecnologicogorila@gmail.com";
+    json["destinatario"] = "tecnologicogorila@gmail.com";
+    json["asunto"] = "Saludar";
+    json["header"] = "Saludar";
+    json["html"] = "<b>Ivan Hola</b>";
+    //Tienes que enviar un HTML en forma de texto
+    this.httpClient.post('https://votar.azurewebsites.net/public/email',json)
       .subscribe(
         (data:any[]) => {
           alert(data["state"]);
