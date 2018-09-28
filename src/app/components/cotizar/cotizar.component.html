@@ -3,14 +3,14 @@
 
   <form class="formulario animated slideInUp" action="index.html" method="post">
     <div class="left-form">
-      <input type="text" name="nombre" placeholder="Nombre:">
-      <input type="text" name="telefono" placeholder="Teléfono:">
-      <input type="text" name="correo" placeholder="Correo electrónico:">
+      <input type="text" name="nombre" [(ngModel)]="name" placeholder="Nombre:">
+      <input type="text" name="telefono" [(ngModel)]="phone" placeholder="Teléfono:">
+      <input type="text" name="correo" [(ngModel)]="email" placeholder="Correo electrónico:">
     </div>
     <div class="right-form">
-      <input type="text" name="descripcion" placeholder="Descripción:">
-      <input type="text" name="cantidades" placeholder="Cantidades:">
-      <input type="text" name="partes" placeholder="# de partes:">
+      <input type="text" name="descripcion" [(ngModel)]="description" placeholder="Descripción:">
+      <input type="text" name="cantidades" [(ngModel)]="amount" placeholder="Cantidades:">
+      <input type="text" name="partes" [(ngModel)]="parts" placeholder="# de partes:">
     </div>
 
 
@@ -19,6 +19,6 @@
   <br>
   <br>
   <div class="boton-cotizar animated4 fadeIn">
-    <a class="boton" href="#">Enviar</a>
+    <a class="boton" (click)="sendMail()">Enviar</a>
   </div>
 </div>

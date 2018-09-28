@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { FormControl} from '@angular/forms';
 
 @Component({
   selector: 'app-cotizar',
@@ -6,6 +8,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./cotizar.component.css']
 })
 export class CotizarComponent {
+  public name:string;
+  public phone:string;
+  public email:string;
+  public description:string;
+  public amount:string;
+  public parts:string;
 
   constructor() {
     document.body.style.backgroundImage = "url('./assets/img/fondo.jpg')";
@@ -18,5 +26,8 @@ export class CotizarComponent {
     // document.getElementById("copyright2").style.color="#5046AA";
   }
 
+  public sendMail(){
+    console.log(this.name);
+  }
 
 }

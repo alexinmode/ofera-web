@@ -17,6 +17,7 @@ import { PreguntasFrecuentesComponent } from './components/preguntas-frecuentes/
 import { LineasNegocioComponent } from './components/lineas-negocio/lineas-negocio.component';
 import { SliderComponent } from './components/slider/slider.component';
 import { SliderAlternativoComponent } from './components/slider-alternativo/slider-alternativo.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -36,8 +37,8 @@ import { SliderAlternativoComponent } from './components/slider-alternativo/slid
     BrowserModule,
     APP_ROUTING,
     AngularFontAwesomeModule,
-    BrowserAnimationsModule
-
+    BrowserAnimationsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
