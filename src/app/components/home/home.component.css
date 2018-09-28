@@ -1,0 +1,87 @@
+div.home-link{
+text-align: center;
+margin: auto;
+padding: 0;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+position: relative;
+z-index: 1002;
+}
+#logo-index {
+  text-align: left;
+  width: 250px;
+  margin-left: -100px;
+  position: relative;
+  z-index: 1001;
+}
+#boton-inicio {
+  margin-top: 60px;
+}
+div.parrafos-entrada {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+div.texto-entrada p {
+  font-size: 60px;
+  font-family: 'Galano-Bold', 'Arial', sans-serif;
+  line-height: .8;
+}
+
+/* Circulos */
+
+#circle-index1 {
+    width: 600px;
+    position: absolute;
+    top:-200px;
+    right:-300px;
+    content:"";
+    transform:translateY(114%);
+    transition: all .6s;
+    z-index: 1000;
+    opacity: 0.8;
+}
+
+#circle-index2 {
+    width: 600px;
+    position: absolute;
+    top:200px;
+    left:-300px;
+    content:"";
+    transform:translateY(114%);
+    transition: all .6s;
+    z-index: 1000;
+    opacity: 0.8;
+}
+/* media queries */
+
+@media only screen and (max-width: 460px ) {
+  div.home-link{
+  margin-top: 20px;
+  text-align: center;
+  }
+  div.links{
+    display: block;
+    margin: 10px;
+    text-align: center;
+  }
+  div.lineas-negocio {
+    margin-top: 14px;
+  }
+  div.link p {
+    font-size: 22px;
+    display: block;
+  }
+
+
+  div.lineas-negocio p {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 860px ) {
+  #circle-index1, #circle-index2 {
+    display: none;
+  }
+}

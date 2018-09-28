@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 480 502" style="enable-background:new 0 0 480 502;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:url(#SVGID_2_);}
+	.st2{fill:url(#SVGID_3_);}
+	.st3{opacity:0.15;fill:#5046AA;}
+</style>
+<g>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="24.7052" y1="-1.0323" x2="371.8769" y2="392.818">
+		<stop  offset="0" style="stop-color:#5596FA"/>
+		<stop  offset="1" style="stop-color:#78D46E"/>
+	</linearGradient>
+	<path class="st0" d="M132.9,32c-50.3,0-89.7,39.4-89.7,89.7c0,50.3,39.4,89.7,89.7,89.7c50.3,0,89.7-39.4,89.7-89.7
+		C222.5,71.4,183.2,32,132.9,32z M132.9,169.4c-26.3,0-47.7-21.4-47.7-47.7c0-26.3,21.4-47.7,47.7-47.7c26.3,0,47.7,21.4,47.7,47.7
+		C180.6,148,159.2,169.4,132.9,169.4z"/>
+	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="240.3728" y1="-1.0323" x2="587.5445" y2="392.818">
+		<stop  offset="0" style="stop-color:#5596FA"/>
+		<stop  offset="1" style="stop-color:#78D46E"/>
+	</linearGradient>
+	<path class="st1" d="M348.5,32c-50.3,0-89.7,39.4-89.7,89.7c0,50.3,39.4,89.7,89.7,89.7c50.3,0,89.7-39.4,89.7-89.7
+		C438.2,71.4,398.8,32,348.5,32z M348.5,169.4c-26.3,0-47.7-21.4-47.7-47.7c0-26.3,21.4-47.7,47.7-47.7c26.3,0,47.7,21.4,47.7,47.7
+		C396.2,148,374.8,169.4,348.5,169.4z"/>
+</g>
+<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="49.4426" y1="305.8906" x2="431.9677" y2="305.8906">
+	<stop  offset="0" style="stop-color:#5596FA"/>
+	<stop  offset="1" style="stop-color:#78D46E"/>
+</linearGradient>
+<path class="st2" d="M240.7,348.8c-95.2,0-165-39.6-191.3-54.4L67.3,263c24,13.6,87.7,49.7,173.5,49.7c11.9,0,36.9-1.2,70.5-9.2
+	c35.9-8.5,70.5-22.2,103-40.6l17.8,31.4C342.9,344.9,263,348.8,240.7,348.8z"/>
+<ellipse class="st3" cx="240.7" cy="429.3" rx="207.6" ry="21.7"/>
+</svg>

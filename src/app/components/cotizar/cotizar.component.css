@@ -1,0 +1,14 @@
+h3 {
+  margin-left: 60px;
+}
+
+/*Media queries*/
+
+@media only screen and (max-width: 460px ) {
+  form.formulario {
+    display: block;
+  }
+  h3 {
+    font-size: 20px;
+  }
+}

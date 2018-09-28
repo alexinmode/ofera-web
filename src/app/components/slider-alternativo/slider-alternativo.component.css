@@ -1,0 +1,244 @@
+
+div.slider-contenedor {
+  min-width: 100%;
+}
+div.slider-contenedor div.linea-producto {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  padding: 30px 90px;
+  max-width: 1000px;
+  min-width: 1000px;
+}
+h2, p {
+  margin-left: 40px;
+}
+ div.slider-contenedor div.linea-producto p {
+  font-size: 20px;
+  color: #fff;
+}
+
+div.slider-contenedor div.linea-producto ul li {
+  color: #78d46e;
+}
+
+div.slider-contenedor div.info-right {
+  position:relative;
+/* LINEA DE NEGOCIO ELECTRONICA */
+
+}
+
+div.slider-contenedor div.info-right .cir1 {
+  position: absolute;
+  right:260px;
+  top:-10px;
+  transform:translateY(-110%);
+  transition: all .6s;
+
+}
+
+div.slider-contenedor div.info-right .cir2 {
+  position: absolute;
+  bottom:-10px;
+  left:205px;
+  content:"";
+  transform:translateY(114%);
+  transition: all .6s;
+  z-index: 1000;
+}
+
+div.slider-contenedor div.info-right:hover #circle1 {
+  transform:translateY(30%);
+  transition: all .6s;
+}
+div.slider-contenedor div.info-right:hover #circle2 {
+  transform:translateY(-70%);
+  transition: all .6s;
+}
+
+div.slider-contenedor div.info-right img {
+  margin-top: -90px;
+  margin-left: 150px;
+  position: relative;
+  z-index: 1;
+  /* margin-right: 20px; */
+}
+
+/***************************/
+
+div.slider-contenedor div.info-right .cir3 {
+  position: absolute;
+  bottom:-10px;
+  left:205px;
+  content:"";
+  transform:translateY(114%);
+  transition: all .6s;
+  /* z-index: 1000; */
+}
+
+
+/* LINEA DE NEGOCIO CÓMPUTO */
+
+div.slider-contenedor div.info-right:hover #circle3 {
+  transform:translateY(20%);
+  transition: all .6s;
+}
+div.slider-contenedor div.info-right:hover #circle4 {
+  transform:translateY(-20%);
+  transform:translateX(10%);
+  transition: all .6s;
+}
+
+/* LINEA DE NEGOCIO REDES */
+
+div.slider-contenedor div.info-right:hover #circle5 {
+  transform:translateY(60%);
+  transition: all .6s;
+}
+div.slider-contenedor div.info-right:hover #circle6 {
+  transform:translateY(-115%);
+  transition: all .6s;
+}
+div.slider-contenedor div.info-right .cir4 {
+  position: absolute;
+  bottom:-10px;
+  left:250px;
+  content:"";
+  transform:translateY(114%);
+  transition: all .6s;
+  /* z-index: 1000; */
+}
+
+/* LINEA DE NEGOCIO ACCESORIOS */
+div.slider-contenedor div.info-right:hover #circle7 {
+  transform:translateY(80%);
+  transition: all .6s;
+}
+div.slider-contenedor div.info-right:hover #circle8 {
+  transform:translateY(-100%);
+  transition: all .6s;
+}
+
+
+/* div.slider-contenedor div.info-left {
+  width: 90%;
+} */
+
+div.slider-contenedor div.linea-producto span {
+  color:#fff;
+  font-size: 20px;
+}
+
+li.circle-slide {
+  background-color: transparent;
+  border: 2px solid #78d46e;
+  cursor: pointer;
+
+  /* border-image-source: linear-gradient(90deg, #5596fa 10%, #78d46e 90%); */
+
+
+  /* border-image-source: linear-gradient(90deg, #5596fa 10%, #78d46e 90%);
+  border-width: 2pt;
+  border-image-slice: 1;
+  outline: none; */
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+
+}
+div.slider-contenedor {
+  display: flex;
+  justify-content: space-between;
+  /* width: 100%; */
+
+}
+
+.circle-list {
+  margin-top: 140px;
+}
+
+.circle-slide{
+  list-style: none;
+  margin: 20px 0;
+
+}
+
+div.circulos {
+  /* display: block; */
+  float: right;
+  width: 10%;
+  position: relative;
+
+}
+
+div.circulos ol li.circle-slide {
+  display: block;
+}
+
+
+/* media query */
+@media screen and (max-width: 980px) {
+.movil-slider {
+  display: block;
+}
+
+div.slider-contenedor {
+  display: none;
+}
+
+div.movil-slider div.linea-producto {
+
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  padding: 30px;
+
+}
+
+ div.movil-slider div.linea-producto p {
+  font-size: 20px;
+  color: #fff;
+}
+
+div.movil-slider div.linea-producto ul li {
+  color: #78d46e;
+}
+
+div.movil-slider div.linea-producto span {
+  color:#fff;
+  font-size: 20px;
+}
+
+div.movil-slider div.linea-producto div.info-right img {
+  width: 320px;
+  height: 320px;
+  margin-top: -50px;
+}
+
+div.movil-slider div.linea-producto div.info-right {
+  display: flex;
+  justify-content: center;
+}
+}
+
+@media screen and (max-width: 780px) {
+  div.movil-slider div.linea-producto {
+    display: block;
+    color: #fff;
+    padding: 30px;
+  }
+
+  div.movil-slider div.linea-producto p {
+   font-size: 18px;
+}
+h2 {
+  font-size: 22px;
+}
+div.movil-slider div.linea-producto span {
+  font-size: 18px;
+}
+div.movil-slider div.linea-producto div.info-right img {
+  width: 280px;
+  height: 280px;
+}
+}

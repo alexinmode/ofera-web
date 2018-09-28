@@ -1,0 +1,23 @@
+h3 {
+  color: #5596fa;
+  font-size: 22px;
+  font-weight: bold;
+}
+p {
+  color: #fff;
+  text-align: justify;
+  font-size: 18px;
+}
+
+p span {
+  font-weight: bold;
+  font-size: 20px;
+}
+ol li {
+  font-size: 18px;
+  color: #fff;
+}
+
+div.contenido {
+    flex: 1 0 auto;
+}

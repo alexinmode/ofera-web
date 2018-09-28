@@ -1,0 +1,50 @@
+
+<nav class="navbarra" id="navegacion" autoscroll="true">
+    <div class="logo">
+      <a class="navbar-brand" [routerLink]="['home']">
+        <img id="logotipo" src="./assets/img/ofera-circle.svg" width="70" height="100">
+      </a>
+    </div>
+    <div class="topnav" id="myTopnav">
+      <ul>
+        <li>
+          <a id="link-inicio" [routerLink]="['lineas-negocio']">Inicio<span class="sr-only">(current)</span></a>
+        </li>
+        <li>
+          <a id="link-nosotros" [routerLink]="['nosotros']">Nosotros <span class="sr-only">(current)</span></a>
+        </li>
+        <li> <a id="link-garantia"  [routerLink]="['garantia']">Garantías</a> </li>
+        <li> <a id="link-preguntas" [routerLink]="['preguntas-frecuentes']">Preguntas frecuentes</a> </li>
+        <li>
+          <a [routerLink]="['cotizar']"> <span> Cotizar </span> </a>
+        </li>
+      </ul>
+  </div>
+</nav>
+<div class="cabecera-movil">
+    <div class="logo-movil">
+      <a class="navbar-brand" [routerLink]="['home']">
+        <img id="logotipo-movil" src="./assets/img/ofera-circle.svg" width="70" height="100">
+      </a>
+    </div>
+    <div class="menu-responsivo">
+      <a onclick="mostrar()"><i class="fa fa-bars icono"></i></a>
+    </div>
+</div>
+<nav class="navbarra-movil animatedfive bounceInLeft" id="menu-movil" autoscroll="true">
+    <div class="topnav">
+      <ul>
+        <li>
+          <a id="link-inicio-movil" onclick="ocultar()"[routerLink]="['lineas-negocio']">Inicio<span class="sr-only">(current)</span></a>
+        </li>
+        <li>
+          <a id="link-nosotros-movil" onclick="ocultar()" [routerLink]="['nosotros']">Nosotros <span class="sr-only">(current)</span></a>
+        </li>
+        <li> <a id="link-garantia-movil"  onclick="ocultar()" [routerLink]="['garantia']">Garantías</a> </li>
+        <li> <a id="link-preguntas-movil" onclick="ocultar()" [routerLink]="['preguntas-frecuentes']">Preguntas frecuentes</a> </li>
+        <li>
+          <a id="link-cotizar-movil"[routerLink]="['cotizar']" onclick="ocultar()"> <span> Cotizar </span> </a>
+        </li>
+      </ul>
+  </div>
+</nav>
