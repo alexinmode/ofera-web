@@ -19,6 +19,7 @@ import { LineasNegocioComponent } from './components/lineas-negocio/lineas-negoc
 import { SliderComponent } from './components/slider/slider.component';
 import { SliderAlternativoComponent } from './components/slider-alternativo/slider-alternativo.component';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { FormsModule } from '@angular/forms';
     AngularFontAwesomeModule,
     BrowserAnimationsModule,
     HttpModule,
+    HttpClientModule,
     FormsModule
   ],
   providers: [],
